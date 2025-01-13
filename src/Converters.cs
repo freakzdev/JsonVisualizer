@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Globalization;
 
 // Converters 
@@ -8,7 +9,7 @@ namespace FreakzDEV.JsonVisualizer
   {
     public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
     {
-      return value switch
+      return (value as string) switch
       {
         "Small" => 12,
         "Medium" => 16,
@@ -28,7 +29,7 @@ namespace FreakzDEV.JsonVisualizer
   {
     public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
     {
-      return value switch
+      return (value as string) switch
       {
         "Bold" => FontAttributes.Bold,
         "Italic" => FontAttributes.Italic,
@@ -46,7 +47,7 @@ namespace FreakzDEV.JsonVisualizer
   {
     public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
     {
-      if (value is int top)
+      if (value is double top)
       {
         return new Thickness(0, top, 0, 0);
       }

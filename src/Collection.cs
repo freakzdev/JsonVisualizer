@@ -1,12 +1,10 @@
 using System.Text.Json;
-using Microsoft.Maui.Controls;
 using System.Collections.ObjectModel;
 
 namespace FreakzDEV.JsonVisualizer
 {
   public class Collection : CollectionView
   {
-
 
     // File Bindable Property
     public static readonly BindableProperty FileProperty = BindableProperty.Create(
@@ -26,38 +24,39 @@ namespace FreakzDEV.JsonVisualizer
     private static async void OnFileChanged(BindableObject bindable, object oldValue, object newValue)
     {
       var control = (Collection)bindable;
-      await control.LoadAsync();
+      control.ItemsSource = await control.LoadAsync();
     }
 
     // Class constructor
     public Collection()
     {
+      ItemTemplate = new DataTemplate(Build);
+    }
 
-      ItemTemplate = new DataTemplate(() =>
+    // Component builder
+    private static ContentView Build()
+    {
+      Label label = new()
       {
-        var label = new Label
-        {
-          HorizontalTextAlignment = TextAlignment.Justify
-        };
-        label.SetBinding(Label.TextProperty, "Text");
-        label.SetBinding(Label.FontSizeProperty, new Binding("Size", converter: new FontSizeConverter()));
-        label.SetBinding(Label.FontAttributesProperty, new Binding("Attributes", converter: new FontAttributesConverter()));
-        label.SetBinding(Label.MarginProperty, new Binding("MarginTop", converter: new MarginConverter()));
+        HorizontalTextAlignment = TextAlignment.Justify
+      };
 
-        return new ContentView { Content = label };
-      });
+      label.SetBinding(Label.TextProperty, "Text");
+      label.SetBinding(Label.FontAttributesProperty, new Binding("Attributes", converter: new FontAttributesConverter()));
+      label.SetBinding(Label.FontSizeProperty, new Binding("Size", converter: new FontSizeConverter()));
+      label.SetBinding(Label.MarginProperty, new Binding("MarginTop", converter: new MarginConverter()));
 
+      return new ContentView { Content = label };
     }
 
     // Load Tasks
-    private async Task LoadAsync()
+    private async Task<ObservableCollection<Structure>> LoadAsync()
     {
       using var stream = await FileSystem.OpenAppPackageFileAsync(File);
       using StreamReader reader = new(stream);
       string json = await reader.ReadToEndAsync();
       var data = JsonSerializer.Deserialize<List<Structure>>(json) ?? throw new InvalidOperationException("Resource file is invalid");
-      ObservableCollection<Structure> Json = new ObservableCollection<Structure>(data);
-      ItemsSource = Json;
+      return [.. data];
     }
 
   }

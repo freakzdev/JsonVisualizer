@@ -7,7 +7,6 @@
   {
     "Text": "Last updated:",
     "Size": "Small",
-    "Attributes": "None",
     "MarginTop": 10
   },
   {
@@ -23,8 +22,7 @@
   },
   {
     "Text": "At [Company Name], we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and share your information when you use [Application Name].",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "2. Information We Collect",
@@ -40,8 +38,7 @@
   },
   {
     "Text": "We may collect the information you provide directly to us, such as when you create an account, subscribe to our services, or communicate with us.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "2.2. Information Collected Automatically",
@@ -51,8 +48,7 @@
   },
   {
     "Text": "When you use the Application, we may automatically collect certain information, such as your IP address, device type, and usage data.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "2.3. Information from Third Parties",
@@ -62,8 +58,7 @@
   },
   {
     "Text": "We may receive information about you from third parties, such as social media platforms, if you choose to link your account with them.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "3. How We Use Your Information",
@@ -79,8 +74,7 @@
   },
   {
     "Text": "We use the information we collect to operate, maintain, and improve our Application.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "3.2. To Communicate with You",
@@ -90,8 +84,7 @@
   },
   {
     "Text": "We may use your information to send you updates, respond to your inquiries, or provide technical support.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "3.3. For Marketing Purposes",
@@ -101,8 +94,7 @@
   },
   {
     "Text": "We may use your information to offer promotions or services that may interest you, in accordance with applicable laws.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "4. How We Share Your Information",
@@ -118,8 +110,7 @@
   },
   {
     "Text": "We may share your information with third parties that provide services to us, such as hosting, data analysis, and customer support.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "4.2. Legal Compliance",
@@ -129,8 +120,7 @@
   },
   {
     "Text": "We may disclose your information if we believe it is necessary to comply with a legal obligation, protect our rights, or prevent fraud.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "4.3. Business Transfers",
@@ -140,8 +130,7 @@
   },
   {
     "Text": "If we are involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "5. Your Rights and Choices",
@@ -157,8 +146,7 @@
   },
   {
     "Text": "You have the right to access the personal information we hold about you and request corrections to any errors.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "5.2. Marketing Choices",
@@ -168,8 +156,7 @@
   },
   {
     "Text": "You can opt out of receiving marketing communications by following the unsubscribe instructions in those messages.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "5.3. Deletion of Information",
@@ -179,8 +166,7 @@
   },
   {
     "Text": "You can request the deletion of your account and associated information at any time.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "6. Information Security",
@@ -190,8 +176,7 @@
   },
   {
     "Text": "We take reasonable measures to protect your personal information from unauthorized access, misuse, or disclosure.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "7. Data Retention",
@@ -201,8 +186,7 @@
   },
   {
     "Text": "We retain your personal information for as long as necessary to fulfill the purposes described in this Privacy Policy, unless a longer retention period is required or permitted by law.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "8. Cookie Policy",
@@ -212,8 +196,7 @@
   },
   {
     "Text": "We use cookies and similar technologies to enhance your experience in our Application. You can control cookie usage through your browser settings.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "9. Changes to This Privacy Policy",
@@ -223,8 +206,7 @@
   },
   {
     "Text": "We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the new policy in the Application or through other appropriate means.",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   },
   {
     "Text": "10. Contact Us",
@@ -234,7 +216,6 @@
   },
   {
     "Text": "If you have any questions or concerns about this Privacy Policy, you can contact us at [Support Email].",
-    "Size": "Body",
-    "Attributes": "None"
+    "Size": "Body"
   }
 ]
