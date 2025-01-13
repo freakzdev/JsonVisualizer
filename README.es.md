@@ -31,7 +31,7 @@ dotnet add package FreakzDEV.JsonVisualizer --version 1.0.2
 
 ## Versión
 
-Versión actual: 1.0.0
+Versión actual: 1.0.2
 
 ## Propiedades
 <table style="border: 1px solid #4d4d4d50;">

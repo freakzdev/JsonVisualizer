@@ -16,7 +16,7 @@ dotnet add package FreakzDEV.JsonVisualizer --version 1.0.2
 
 ## Version
 
-Current version: 1.0.0
+Current version: 1.0.2
 
 ## Properties
 | Property | Description | Default Value |
