@@ -1,4 +1,4 @@
-🇺🇸 EN | [🇪🇸 ES](README.es.md)[🇺🇸 EN](README.md) | 🇪🇸 ES
+🇺🇸 EN | [🇪🇸 ES](README.es.md)
 
 # JsonVisualizer
 
