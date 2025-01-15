@@ -1,7 +1,7 @@
 namespace FreakzDEV.JsonVisualizer
 {
   // Bindable data structure
-  public class Structure
+  public class JSONModel
   {
     public string Text { get; set; } = string.Empty;
     public string Size { get; set; } = string.Empty;

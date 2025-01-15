@@ -13,7 +13,7 @@
 
 		<SkipValidateMauiImplicitPackageReferences>true</SkipValidateMauiImplicitPackageReferences>
 
-		<VersionPrefix>1.0.3</VersionPrefix>
+		<VersionPrefix>1.0.4</VersionPrefix>
 		<VersionSuffix></VersionSuffix>
 
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion> <!-- Tested: iOS 18 -->

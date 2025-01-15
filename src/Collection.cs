@@ -50,12 +50,12 @@ namespace FreakzDEV.JsonVisualizer
     }
 
     // Load Tasks
-    private async Task<ObservableCollection<Structure>> LoadAsync()
+    private async Task<ObservableCollection<JSONModel>> LoadAsync()
     {
       using var stream = await FileSystem.OpenAppPackageFileAsync(File);
       using StreamReader reader = new(stream);
       string json = await reader.ReadToEndAsync();
-      var data = JsonSerializer.Deserialize<List<Structure>>(json) ?? throw new InvalidOperationException("Resource file is invalid");
+      var data = JsonSerializer.Deserialize<List<JSONModel>>(json) ?? throw new InvalidOperationException("Resource file is invalid");
       return [.. data];
     }
 

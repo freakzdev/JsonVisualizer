@@ -11,12 +11,12 @@ JsonVisualizer is a utility for .NET MAUI that allows you to dynamically create 
 To install JsonVisualizer, run the following command in the NuGet Package Manager Console:
 
 ```sh
-dotnet add package FreakzDEV.JsonVisualizer --version 1.0.3
+dotnet add package FreakzDEV.JsonVisualizer --version 1.0.4
 ```
 
 ## Version
 
-Current version: 1.0.3
+Current version: 1.0.4
 
 ## Properties
 | Property | Description | Default Value |
